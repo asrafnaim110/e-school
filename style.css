@@ -1,83 +1,93 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-.background_color{
-    height: 567px;
+.bg{
+    height: 576px;
     width: 100%;
-    background-color: #F0FFF0;  
+    background-color: #F0FFF0;
+    padding: 0px;
+    margin: 0px;
 }
 #logo{
-    height: 60px;
     width: 200px;
+    height: 60px;
 }
-.sign_in_Btn{
-    text-decoration: none;
+#navbarNav{
+    font-size: 16px;
+    font-weight: 400;
+    color: black
+}
+#sign_in_btn{
     color: white;
+    width: 105px;
+    height: 44px;
     background-color: #21B573;
-    border: none;
-    border-radius: 20px;
-    height: 35px;
-    width: 100px;
-    cursor: pointer;
-    font-size: small;
+    border-radius: 33px;
 }
-#red_text{
+.banner{
+    padding-top: 80px;
+}
+.red_text{
+    font-size: 16px;
     color: #FD511A;
-    font-size: small;
+    line-height: 24px;
 }
-#banner_lorem{
-    font-size: small;
-    line-height: 36px;
-}
-#text_color{
-    color: #21B573;
-}
-#text{
+.title_text h1{
+    width: 405px;
+    height: 140px;
+    font-size: 48px;
     font-weight: 700;
     line-height: 70px;
 }
-.banner_part{
-    padding-top: 50px;
-}
-.banner_img img{
-    height: 345px;
-    width: 555px;
-}
-#navbarNav ul>li>a{
-    color: #FD511A;
-}
-#book_icon{
-    padding-top: 50px;
-}
-.icon_box{
-    height: 270px;
-    width: 270px;
-    background-color: #F8FFFB;
-}
-.icon_box img{
+.subtitle_text{
+    width: 403px;
     height: 85px;
-    width: 65px;
+    line-height: 36px;
+    font-size: 16px;
+    color: #6C6B6B;
+    padding-top: 15px;
 }
-.get_started_btn button{
+.started_btn{
+    width: 153px;
+    height: 43px;
+    background-color: #21B573;
+    border-radius: 33px;
+    border: none;
     text-decoration: none;
     color: white;
-    background-color: #21B573;
-    border: none;
-    border-radius: 20px;
-    height: 40px;
-    width: 120px;
-    cursor: pointer;
-    font-size: small;
+    margin-top: 20px;
+}
+.banner_img img{
+    width: 555px;
+    height: 346px;
+}
+.categories{
+    padding-top: 45px;
 }
 .box{
-    display: flex;
-    float: left;
-    height: 270px;
     width: 270px;
-    border-radius: 10px;
+    height: 270px;
     background-color: #F8FFFB;
+    border-radius: 10px;
+    margin-left: px;
 }
-.box-2{
-    background: #FFFFFF;
-box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+.icon img{
+    width: 66px;
+    height: 85px;
+    margin-top: 55px;
+}
+.icon_title{
+    padding-top: 22px;
+}
+#box_2{
+    background-color: white;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+#online_courses{
+    padding-top: 100px;
+}
+.online_course_title h1{
+    color: #413960;
+    font-size: 36px;
+    font-weight: 700;
 }

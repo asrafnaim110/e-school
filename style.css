@@ -43,6 +43,9 @@ body{
     height: 345px;
     width: 555px;
 }
+#navbarNav ul>li>a{
+    color: #FD511A;
+}
 #book_icon{
     padding-top: 50px;
 }

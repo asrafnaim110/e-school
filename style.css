@@ -23,6 +23,7 @@ body{
     height: 44px;
     background-color: #21B573;
     border-radius: 33px;
+    text-align: center;
 }
 .banner{
     padding-top: 80px;
@@ -90,4 +91,118 @@ body{
     color: #413960;
     font-size: 36px;
     font-weight: 700;
+}
+#card{
+    padding-top: 85px;
+}
+.col{
+    width: 370px;
+    height: 483px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+.card{
+    border: none;
+}
+
+.card img{
+    width: 330px;
+    height: 234px;
+    margin-top: 24px;
+    margin-left: 8px;
+}
+.card-title{
+    color: #413960;
+    font-weight: 500;
+}
+.card-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #585859;
+}
+.buy_course_btn{
+    width: 137px;
+    height: 35px;
+    background-color: #21B573;
+    border-radius: 33px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+    
+}
+.calender img{
+    width: 24px;
+    height: 24px;
+    margin-top: 5px;
+    float: left;
+}
+.calender p{
+    
+    color: #585859;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 8px;
+}
+.testimonial_text{
+    padding-top: 80px;
+    padding-bottom: 65px;
+}
+.testimonial_text h1{
+    font-weight: 700;
+}
+.testimonial_img_text{
+    display: flex;
+}
+.testimonial_img_text img{
+    width: 120px;
+    height: 120px;
+}
+.testimonial_img_text p{
+    width: 580px;
+    height: 90px;
+    font-size: 16px;
+    line-height: 30px;
+    padding-left: 52px;
+}
+#testimonial{
+    padding-bottom: 105px;
+}
+footer{
+    width: 100%;
+    height: 370px;
+    background-color: #282531;
+}
+.up_text{
+    width: 365px;
+    height: 60px;
+    padding-top: 55px;
+}
+.up_text p{
+    color: white;
+    font-size: 16px;
+}
+.footer_links{
+    color: white;
+    padding-left: 635px;
+    font-weight: 300;
+}
+.footer_links ul li{
+    list-style: none;
+}
+.footer_links ul li a{
+    text-decoration: none;
+    color: white;
+}
+#course{
+    font-weight: 700;
+}
+.footer_copyright{
+    color: white;
+    padding-top: 100px;
 }
